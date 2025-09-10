@@ -15,6 +15,7 @@
 		4830AD1C2B3CB3D1009FBF67 /* Login_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD1B2B3CB3D1009FBF67 /* Login_AppTests.swift */; };
 		4830AD262B3CB3D1009FBF67 /* Login_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD252B3CB3D1009FBF67 /* Login_AppUITests.swift */; };
 		4830AD282B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD272B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift */; };
+		48494B782E72445900A80E53 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 48494B772E72445300A80E53 /* README.md */; };
 		488E16622E70FFE400A2F32C /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E165E2E70FFE400A2F32C /* Urbanist-Bold.ttf */; };
 		488E16662E71051800A2F32C /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E16652E71051800A2F32C /* Urbanist-SemiBold.ttf */; };
 		488E16672E71051800A2F32C /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E16642E71051800A2F32C /* Urbanist-Medium.ttf */; };
@@ -50,6 +51,7 @@
 		4830AD212B3CB3D1009FBF67 /* Login_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4830AD252B3CB3D1009FBF67 /* Login_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AppUITests.swift; sourceTree = "<group>"; };
 		4830AD272B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48494B772E72445300A80E53 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		488E165E2E70FFE400A2F32C /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
 		488E16642E71051800A2F32C /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
 		488E16652E71051800A2F32C /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		4830AD032B3CB3C2009FBF67 /* Login_App */ = {
 			isa = PBXGroup;
 			children = (
+				48494B772E72445300A80E53 /* README.md */,
 				48ED81282B8B287100339BA8 /* fonts */,
 				4830AD042B3CB3C2009FBF67 /* AppDelegate.swift */,
 				4830AD062B3CB3C2009FBF67 /* SceneDelegate.swift */,
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48494B782E72445900A80E53 /* README.md in Resources */,
 				4830AD112B3CB3D1009FBF67 /* LaunchScreen.storyboard in Resources */,
 				488E16622E70FFE400A2F32C /* Urbanist-Bold.ttf in Resources */,
 				488E16662E71051800A2F32C /* Urbanist-SemiBold.ttf in Resources */,
