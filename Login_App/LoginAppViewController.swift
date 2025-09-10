@@ -7,7 +7,32 @@
 
 import UIKit
 
+class PaddedTextField: UITextField {
+    
+    let textPadding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+    
+    override func textRect(forBounds bounds: CGRect) -> CGRect {
+        let rect = super.textRect(forBounds: bounds)
+        return rect.inset(by: textPadding)
+    }
+    
+    override func editingRect(forBounds bounds: CGRect) -> CGRect {
+        let rect = super.editingRect(forBounds: bounds)
+        return rect.inset(by: textPadding)
+    }
+    
+    override func placeholderRect(forBounds bounds: CGRect) -> CGRect {
+        let rect = super.placeholderRect(forBounds: bounds)
+        return rect.inset(by: textPadding)
+    }
+}
+
 class LoginAppViewController: UIViewController {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     
     lazy var loginAppLogo: UIImageView = {
         let image = UIImage(named: "LoginAppLogo")
@@ -24,7 +49,7 @@ class LoginAppViewController: UIViewController {
     }()
     
     lazy var inputOfMail: UITextField = {
-        let input = UITextField()
+        let input = PaddedTextField()
         input.layer.cornerRadius = 8
         input.backgroundColor = UIColor(red: 232.0/255.0, green: 236.0/255.0, blue: 244.0/255.0, alpha: 1.0)
         input.layer.borderWidth = 1

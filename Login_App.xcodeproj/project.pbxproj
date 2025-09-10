@@ -15,9 +15,9 @@
 		4830AD1C2B3CB3D1009FBF67 /* Login_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD1B2B3CB3D1009FBF67 /* Login_AppTests.swift */; };
 		4830AD262B3CB3D1009FBF67 /* Login_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD252B3CB3D1009FBF67 /* Login_AppUITests.swift */; };
 		4830AD282B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4830AD272B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift */; };
-		48ED812A2B8B289900339BA8 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48ED81292B8B289900339BA8 /* Urbanist-Medium.ttf */; };
-		48ED812C2B8B28A000339BA8 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48ED812B2B8B28A000339BA8 /* Urbanist-SemiBold.ttf */; };
-		48ED812E2B8B28A500339BA8 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48ED812D2B8B28A500339BA8 /* Urbanist-Bold.ttf */; };
+		488E16622E70FFE400A2F32C /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E165E2E70FFE400A2F32C /* Urbanist-Bold.ttf */; };
+		488E16662E71051800A2F32C /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E16652E71051800A2F32C /* Urbanist-SemiBold.ttf */; };
+		488E16672E71051800A2F32C /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 488E16642E71051800A2F32C /* Urbanist-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		4830AD212B3CB3D1009FBF67 /* Login_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Login_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4830AD252B3CB3D1009FBF67 /* Login_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AppUITests.swift; sourceTree = "<group>"; };
 		4830AD272B3CB3D1009FBF67 /* Login_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		48ED81292B8B289900339BA8 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Medium.ttf"; path = "../../../Urbanist-Medium.ttf"; sourceTree = "<group>"; };
-		48ED812B2B8B28A000339BA8 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-SemiBold.ttf"; path = "../../../Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
-		48ED812D2B8B28A500339BA8 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Urbanist-Bold.ttf"; path = "../../../Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		488E165E2E70FFE400A2F32C /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		488E16642E71051800A2F32C /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		488E16652E71051800A2F32C /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +134,9 @@
 		48ED81282B8B287100339BA8 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				48ED812D2B8B28A500339BA8 /* Urbanist-Bold.ttf */,
-				48ED812B2B8B28A000339BA8 /* Urbanist-SemiBold.ttf */,
-				48ED81292B8B289900339BA8 /* Urbanist-Medium.ttf */,
+				488E16642E71051800A2F32C /* Urbanist-Medium.ttf */,
+				488E16652E71051800A2F32C /* Urbanist-SemiBold.ttf */,
+				488E165E2E70FFE400A2F32C /* Urbanist-Bold.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -205,7 +205,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					4830AD002B3CB3C2009FBF67 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -246,9 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4830AD112B3CB3D1009FBF67 /* LaunchScreen.storyboard in Resources */,
-				48ED812E2B8B28A500339BA8 /* Urbanist-Bold.ttf in Resources */,
-				48ED812C2B8B28A000339BA8 /* Urbanist-SemiBold.ttf in Resources */,
-				48ED812A2B8B289900339BA8 /* Urbanist-Medium.ttf in Resources */,
+				488E16622E70FFE400A2F32C /* Urbanist-Bold.ttf in Resources */,
+				488E16662E71051800A2F32C /* Urbanist-SemiBold.ttf in Resources */,
+				488E16672E71051800A2F32C /* Urbanist-Medium.ttf in Resources */,
 				4830AD0E2B3CB3D1009FBF67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,11 +450,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3SQ89GMMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Login_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -478,11 +478,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3SQ89GMMV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Login_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -502,7 +502,6 @@
 		4830AD2F2B3CB3D1009FBF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -521,7 +520,6 @@
 		4830AD302B3CB3D1009FBF67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,7 +538,6 @@
 		4830AD322B3CB3D1009FBF67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -557,7 +554,6 @@
 		4830AD332B3CB3D1009FBF67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
