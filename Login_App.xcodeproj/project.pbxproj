@@ -89,6 +89,7 @@
 				4830AD1A2B3CB3D1009FBF67 /* Login_AppTests */,
 				4830AD242B3CB3D1009FBF67 /* Login_AppUITests */,
 				4830AD022B3CB3C2009FBF67 /* Products */,
+				48494B772E72445300A80E53 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,7 +106,6 @@
 		4830AD032B3CB3C2009FBF67 /* Login_App */ = {
 			isa = PBXGroup;
 			children = (
-				48494B772E72445300A80E53 /* README.md */,
 				48ED81282B8B287100339BA8 /* fonts */,
 				4830AD042B3CB3C2009FBF67 /* AppDelegate.swift */,
 				4830AD062B3CB3C2009FBF67 /* SceneDelegate.swift */,
